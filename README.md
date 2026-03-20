@@ -1,1 +1,3 @@
-Real-time AI-based emotion detection system with face recognition and emotion history tracking.
+In this project, we aimed to build a real-time system capable of detecting and analyzing human emotions using artificial intelligence. To achieve this, we followed a structured approach by combining computer vision and deep learning techniques.
+First, we used OpenCV to capture live video from the webcam. Each frame from the video stream was processed individually. We then applied the DeepFace framework, which uses pre-trained deep learning models, to detect faces and classify emotions such as happy, sad, angry, and neutral.
+To make the system interactive and user-friendly, we integrated Streamlit to create a real-time dashboard. This dashboard displays the live camera feed, detected emotion, and a dynamic chart representing confidence scores for different emotions.
